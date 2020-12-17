@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        button{
+            width: 5rem;
+            height: 5rem;
+        }
+        .red{
+            background-color: red;
+        }
+        .green{
+            background-color: green;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    {% if message %}
+        <div class="message">
+            {{ message }}
+        </div>
+    {% else %}
+    <button class='green' value="1"></button>
+    <button class='yellow' value="2"></button>
+    <button class='red' value="3"></button>
+    {% endif %}
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="../static/js/forvlad.js"></script>
+</body>
+</html>

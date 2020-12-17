@@ -1,0 +1,18 @@
+@import url("normalize.css");
+
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+}
+#code{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(226, 166, 92);
+}
+
+.save{
+    width: 100vw;
+    height: 100%;
+}

@@ -1,0 +1,5 @@
+020 06:39:47] "GET /static/css/style.css HTTP/1.1" 200 -
+91.76.222.6 - - [20/Oct/2020 06:39:47] "GET /static/js/main.js HTTP/1.1" 200 -
+91.76.222.6 - - [20/Oct/2020 06:39:47] "GET /static/css/normalize.css HTTP/1.1" 200 -
+редирект сработал?
+91.76.222.6 - - [20/Oct/2020 06:39:47] "GET /favicon.ico HTTP/1.1" 200 -
