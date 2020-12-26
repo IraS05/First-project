@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+            #name{
+                text-align: center;
+            }
+            #skills{
+                margin-top: 300px;
+                display: flex;
+                justify-content: space-around;
+            }
+            #mySkills , #wantSkills{
+                padding-left: 64px;
+                padding-right: 68px;
+                padding-top: 15px;
+                padding-bottom: 55px;
+            }
+            #mySkills{
+                background-color: #000000;
+                color: white;
+
+            }
+            #wantSkills{
+                color: white;
+                background-color: #818181;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <h1 id="name">Привет , {{data.name}}</h1>
+
+        <div id="skills">
+            <div id="mySkills">
+                <h2>Список твоих скиллов</h2>
+                {{data.proff_skills}}
+                <ol>
+                    <li>{{data.proff_skills}}</li>
+                    <li>{{data.proff_skills}}</li>
+                    <li>{{data.proff_skills}}</li>
+                    <li>{{data.proff_skills}}</li>
+                </ol>
+            </div>
+    
+            <div id="wantSkills">
+                <h2>Что ты хочешь изучить</h2>
+                <ul>
+                    <li>{{data.want_to_learn}}</li>
+                    <li>{{data.want_to_learn}}</li>
+                </ul>
+                
+            </div>
+        </div>
+
+
+    </body>
+
+</html>

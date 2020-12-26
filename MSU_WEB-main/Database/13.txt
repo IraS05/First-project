@@ -1,0 +1,1 @@
+{"login": "13", "pass": "22", "proff": "JS", "study": "HTML", "id": "etalon", "password": "default", "img": "default", "name": "default", "description": "default", "skills": ["default"], "wish": ["default"]}

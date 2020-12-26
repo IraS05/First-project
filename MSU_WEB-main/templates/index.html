@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <style>
+        div{
+            text-align: center;
+        }
+        h3 , button{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 42px;
+
+            color: #000000;
+        }
+        .line2{
+            display: flex;
+            justify-content:space-around;
+        }
+    button{
+        width: 15rem;
+        height: 10rem;
+    }
+    .line3{
+        padding-top: 10rem;
+    }
+    </style>
+</head>
+<body>
+
+    <div class="line1"> <h3>Want to learn</h3> </div>
+
+    <div class="line2">
+        {% for i in data['wtl'] %}
+        <a href="/?value={{i}}&want=learn"><button>{{i}}</button></a>
+        {% endfor %}
+    </div>
+
+    <div class="line3"> 
+        <h1>Edu social</h1>
+    </div>
+
+    <div> <h3>Want to teach</h3> </div>
+
+    <div>
+        {% for i in data['wtt'] %}
+        <a href="/?value={{i}}&want=teach"><button>{{i}}</button></a>
+        {% endfor %}
+    </div>
+
+</body>
+</html>

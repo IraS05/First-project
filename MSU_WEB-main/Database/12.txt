@@ -1,0 +1,1 @@
+{"login": "12", "pass": "22", "proff": "Python", "study": "Flask", "id": "etalon", "password": "default", "img": "default", "name": "default", "description": "default", "skills": ["default"], "wish": ["default"]}
